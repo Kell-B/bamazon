@@ -19,7 +19,13 @@ connection.connect(function (err, res) {
 function start() {
     connection.query('SELECT * FROM products', function (err, res) {
         if (err) throw err;
-        console.log(res);
+        console.log('----------Bamazon welcomes you!----------');
+        console.log('-----------------------------------------');
+
+        for (let i = 0; i < res.length; i++) {
+            console.log('ID: ' + res[i].item_id + '\n' + 'Product: ' + res[i].product_name + '\n' + 'Department: ' + res[i].department_name + '|')
+            console.log('-----------------------------------------');
+        }
     })
 }
 
