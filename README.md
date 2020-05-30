@@ -13,11 +13,11 @@ In order to run this app you will need to use the schema.sql provided. You will 
  
  
 ## How It Works
- The app will begin by displaying all the products available. The user must then enter an id for the item they want and the quantity. The app then determines if there is enough in stock to fill the order. If not, the app will alert the user. Else, it will place the order, and update the sql database to reflect this. Lastly, the app will displays the customer's total price.
+ The app will begin by displaying all the products available. The user must then enter an id for the item they want and the quantity. The app then determines if there is enough in stock to fill the order. If not, the app will alert the user. Else, it will place the order, and update the sql database to reflect this. Lastly, the app will display the customer's total price.
 
 ## Demonstration Video
 
-Link to gif demo: 
+Link to gif demo of app working: https://drive.google.com/drive/folders/1J9-PrIQ88hCc5IWwa-txjMSIFJ5LgHRO?usp=sharing
 
 ## Technologies
 
